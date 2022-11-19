@@ -1,0 +1,18 @@
+mysql:
+  host: localhost
+  port: 3306
+  user: user
+  password: password
+  database: database
+
+text: # All texts (probably) support hex colors, format: &#hexcolor
+  info: |
+    §dSchematic '{0}' info
+    §e- Last edit by: {1}
+    §e- First uploaded: {2}
+    §e- Last edited: {3}
+    §f{4}
+  status: #{4} == status
+    notondisk: '&cNot downloaded'
+    uptodate: '&aUp to date'
+    updated: '&6Newer available'

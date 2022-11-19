@@ -1,0 +1,20 @@
+name: ${project.artifactId}
+main: ${mainClass}
+version: ${project.version}
+api-version: 1.17
+author: TheServer.wtf
+description: A plugin to upload/download WorldEdit schematic files to/from a MySQL database
+depend:
+  - WorldEdit
+  - TSCentralPlugin
+
+commands:
+  schematicdb:
+    aliases: [sdb]
+    description: Command to upload and download WorlEdit schematic files
+    usage: /<command> [args]
+
+permissions:
+  schematicdb.use:
+    default: op
+    description: Premission to use SchematicDB plugin features
